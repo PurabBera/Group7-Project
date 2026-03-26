@@ -3,64 +3,70 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+<title>Our Blog Website</title>
 
 <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
-<nav>
-<a href="#">Home</a>
-<a href="#">About Us</a>
-<a href="#">Contact Us</a>
-</nav>
+<header>
+  <h2>OurBlog</h2>
+
+  <nav class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#">Blog</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <div class="search-box">
+    <input type="text" placeholder="Search...">
+    <button>🔍</button>
+  </div>
+</header>
 
 <section id="home" class="hero">
 
-<h2>Welcome to Our Website</h2>
+  <div class="hero-text">
+    <h2>Building a Website using HTML & CSS</h2>
+    <p>This is a simple project to understand how basic websites are designed.</p>
+    <button>Read More</button>
+  </div>
 
-<img src="https://getwallpapers.com/wallpaper/full/0/8/a/265630.jpg" 
-alt="this is an img">
+  <div class="hero-image">
+    <img src="https://getwallpapers.com/wallpaper/full/0/8/a/265630.jpg" 
+    alt="website image">
+  </div>
 
 </section>
 
-<section id="about">
-
-<h3>About Us</h3>
-
-<p class="text1"> 
-This website is created using HTML and CSS. 
-It demonstrates navigation bar, image, video and contact section.
-</p>
-
+<section id="about" class="about-box">
+  <h2>About Us</h2>
+  <p>
+   This project is created as part of our web design practice. It includes basic elements like navigation, images, video and contact details.
+  </p>
 </section>
 
 <section id="video">
 
 <h3>Our Video</h3>
 
-<video src="video.mp4" controls autoplay loop ></video>
+<video controls>
+<source src="video.mp4" type="video/mp4">
+</video>
 
 </section>
 
-<section id="ContactUs">
-
-<h3>Contact Us</h3>
-
-<p class="text2">
-Email: Group7@gmail.com <br>
-Phone: 941xxxx612 <br>
-Address: Kharagpur College , West Bengal
-</p>
-
+<section id="contact" class="contact-box">
+  <h2>Contact Us</h2>
+  <p>Email: group7@gmail.com</p>
+  <p>Phone: 9XXXXXXXXX</p>
+  <p>Address: Kharagpur, West Bengal</p>
 </section>
 
 <footer>
-
-<p>© 2026 Our Website | All Rights Reserved</p>
-
+<p>© 2026 Our Blog | All Rights Reserved</p>
 </footer>
 
 </body>
